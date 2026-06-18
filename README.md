@@ -32,14 +32,17 @@ and segmentation analysis.
 - Final dataset: 145,274 control / 145,310 treatment
 
 ### Validity Checks
+
+![Daily User Count](figures/daily_user_count.png)
+
+Both groups received a consistent number of users each day throughout the 22-day experiment, confirming no time-based sampling bias.
+
 | Check | Result |
 |-------|--------|
 | SRM Detection |  No SRM (p = 0.9468) |
 | Sample Size |  Sufficient (145K vs required 17K) |
 | Time Distribution |  Both groups evenly distributed |
 
-![Daily User Count](figures/daily_user_count.png)
-Both groups received a consistent number of users each day throughout the 22-day experiment, confirming no time-based sampling bias.
 ### Hypothesis Testing
 | Metric | Control | Treatment |
 |--------|---------|-----------|
