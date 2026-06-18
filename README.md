@@ -37,6 +37,7 @@ and segmentation analysis.
 | SRM Detection |  No SRM (p = 0.9468) |
 | Sample Size |  Sufficient (145K vs required 17K) |
 | Time Distribution |  Both groups evenly distributed |
+
 ![Daily User Count](figures/daily_user_count.png)
 Both groups received a consistent number of users each day throughout the 22-day experiment, confirming no time-based sampling bias.
 ### Hypothesis Testing
@@ -49,6 +50,7 @@ Both groups received a consistent number of users each day throughout the 22-day
 - **Z-statistic:** -1.3109  
 - **P-value:** 0.1899 (> 0.05, not significant)  
 - **Cohen's h:** -0.0049 (negligible effect size)
+
 ![Conversion Rate CI](figures/conversion_rate_ci.png)
 The 95% confidence intervals of both groups overlap heavily, visually confirming that the difference in conversion rate is not statistically significant.
 ### Segmentation Analysis
