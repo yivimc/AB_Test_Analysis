@@ -37,7 +37,8 @@ and segmentation analysis.
 | SRM Detection | ✅ No SRM (p = 0.9468) |
 | Sample Size | ✅ Sufficient (145K vs required 17K) |
 | Time Distribution | ✅ Both groups evenly distributed |
-
+![Daily User Count](figures/daily_user_count.png)
+Both groups received a consistent number of users each day throughout the 22-day experiment, confirming no time-based sampling bias.
 ### Hypothesis Testing
 | Metric | Control | Treatment |
 |--------|---------|-----------|
@@ -48,10 +49,20 @@ and segmentation analysis.
 - **Z-statistic:** -1.3109  
 - **P-value:** 0.1899 (> 0.05, not significant)  
 - **Cohen's h:** -0.0049 (negligible effect size)
-
+![Conversion Rate CI](figures/conversion_rate_ci.png)
+The 95% confidence intervals of both groups overlap heavily, visually confirming that the difference in conversion rate is not statistically significant.
 ### Segmentation Analysis
 - Cumulative conversion rates converged early and remained stable — no novelty effect detected
 - No significant treatment effect observed across weekdays or hours of day
+![Daily Conversion Rate](figures/daily_conversion_rate.png)
+Daily conversion rates fluctuate similarly across both groups with no consistent gap, suggesting the new page provides no systematic lift.
+![Cumulative Conversion Rate](figures/cumulative_conversion_rate.png)
+Cumulative conversion rates converge early and remain stable throughout the experiment, indicating the result is reliable and no novelty effect is present.
+
+![Weekday Conversion Rate](figures/weekday_conversion_rate.png)
+No weekday shows a consistent advantage for the treatment group, ruling out day-of-week as a confounding factor.
+![Hourly Conversion Rate](figures/hourly_conversion_rate.png)
+Conversion rate trends by hour are largely parallel between groups, with no time window showing a meaningful treatment advantage.
 
 ---
 
